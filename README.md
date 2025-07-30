@@ -4,10 +4,16 @@ Generate SQL from natural language, execute on MySQL, and render the best visual
 
 ---
 
+## Screenshot
+
+![SQL & Visualization Generator – demo](docs/screenshot-app.png)
+
+---
+
 ## Quickstart
 
 ```bash
-# Create & activate a virtual environment
+# 1) Create & activate a virtual environment
 python -m venv .venv
 # Windows (Git Bash)
 source .venv/Scripts/activate
@@ -15,9 +21,3 @@ source .venv/Scripts/activate
 # .\.venv\Scripts\Activate.ps1
 # macOS/Linux:
 # source .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure environment
-cp .env.example .env   # then edit .env with your real keys and DB URL
