@@ -2,17 +2,22 @@
 
 Generate SQL from natural language, execute on MySQL, and render the best visualization automatically (Plotly) using LangChain/LangGraph + Azure OpenAI.
 
+---
+
 ## Quickstart
+
 ```bash
+# Create & activate a virtual environment
 python -m venv .venv
-source .venv/Scripts/activate    # Windows Git Bash
+# Windows (Git Bash)
+source .venv/Scripts/activate
+# Windows (PowerShell) alternative:
+# .\.venv\Scripts\Activate.ps1
+# macOS/Linux:
+# source .venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
-cp .env.example .env             # then edit .env with your real keys and DB URL
 
-# If knowledgebase.pkl isn't committed, build it:
-python build_knowledgebase.py
-
-# Run the app
-streamlit run streamlit_chat.py
-
-
+# Configure environment
+cp .env.example .env   # then edit .env with your real keys and DB URL
