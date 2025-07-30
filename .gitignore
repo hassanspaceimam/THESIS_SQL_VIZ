@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# Env
+.env
+
+# Streamlit
+.streamlit/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data / artifacts
+# Ignore ALL raw CSVs and archives so the repo stays small
+csv_files/
+*.zip
+*.tar.gz
+*.7z
+
+# Knowledge base (comment this out if you want to commit your KB)
+knowledgebase.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
